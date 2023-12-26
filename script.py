@@ -33,4 +33,4 @@ get = "{:.2f}".format(information[buy] / information[sell] * number)
 
 print(f"you should get {get} {buy}")
 
-sleep(10)
+input("Press any key to exit.")
