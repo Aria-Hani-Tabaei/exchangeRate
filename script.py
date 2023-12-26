@@ -21,8 +21,8 @@ elif sell == "DOLLAR":
     sell = "USD"
 elif sell == "RIAL":
     sell = "IRR"
-elif buy == "EURO":
-    buy = "EUR"
+elif sell == "EURO":
+    sell = "EUR"
 
 if buy == "LIRA":
     buy = "TRY"
