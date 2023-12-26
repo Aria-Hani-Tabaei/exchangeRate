@@ -21,6 +21,8 @@ elif sell == "DOLLAR":
     sell = "USD"
 elif sell == "RIAL":
     sell = "IRR"
+elif buy == "EURO":
+    buy = "EUR"
 
 if buy == "LIRA":
     buy = "TRY"
@@ -28,9 +30,11 @@ elif buy == "DOLLAR":
     buy = "USD"
 elif buy == "RIAL":
     buy = "IRR"
+elif buy == "EURO":
+    buy = "EUR"
 
 get = "{:.2f}".format(information[buy] / information[sell] * number)
 
 print(f"you should get {get} {buy}")
 
-input("Press any key to exit.")
+empty_variable = input("Press any key to exit.")
